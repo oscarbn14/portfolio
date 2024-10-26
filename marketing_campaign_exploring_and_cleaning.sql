@@ -109,14 +109,7 @@ SELECT
 	PERCENTILE_CONT(0.75) WITHIN GROUP (ORDER BY income) AS q3_income,
 	MAX(income) AS max_income
 FROM marketing_campaign
-WHERE income IS NOT NULL
-/* Could group incomes by quartiles to segment clients by income:
-	35284 or lower = Low Income
-	35285 - 51373 = Median Low Income
-	51374 - 68487 = Median High Income
-	68488 or more = High Income
-*/
-;
+WHERE income IS NOT NULL;
 
 -- Identify outliers in the income column
 WITH quartiles AS (
