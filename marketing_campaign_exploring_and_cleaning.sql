@@ -1,3 +1,9 @@
+/*
+This is a data exploration and cleaning project using PostgreSQL
+The data used was the Marketing Campaign from Kaggle (https://www.kaggle.com/datasets/rodsaldanha/arketing-campaign/data) 
+Acknowledging O. Parr-Rud. Business Analytics Using SAS Enterprise Guide and SAS Enterprise Miner. SAS Institute, 2014.
+*/
+
 -- Creat the table for import
 CREATE TABLE marketing_campaign (
 	customer_id INTEGER,
