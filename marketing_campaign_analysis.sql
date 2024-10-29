@@ -1,3 +1,10 @@
+/*
+This is a data analysis project using PostgreSQL and Tableau fo visualization
+Dashboard: https://public.tableau.com/app/profile/oscar.batiz/viz/MarketingCampign/Dashboard1
+The data used was the Marketing Campaign from Kaggle (https://www.kaggle.com/datasets/rodsaldanha/arketing-campaign/data) 
+Acknowledging O. Parr-Rud. Business Analytics Using SAS Enterprise Guide and SAS Enterprise Miner. SAS Institute, 2014.
+*/
+
 -- Spending and purchase type TOTALS
 --------------------------------------------------------------
 SELECT
