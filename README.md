@@ -1,2 +1,2 @@
-# Oscar Batiz SQL Portfolio
-Hello this is my SQL Portfolio Projects. 
+# Oscar Batiz Portfolio
+Hello this is my Python and SQL portfolio.
